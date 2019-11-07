@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+app:
+  group-id: group-id
+  topic:
+    users: users
+
+elasticsearch:
+  clustername: mkyong-cluster
+  host: localhost
+  port: 9300
